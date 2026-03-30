@@ -1,4 +1,16 @@
 /* CSS RESET */
+:root {
+  --background-primary-color: #ffffff;
+  --background-secundary-color: #f5f5f5;
+  --background-tertiary-color: #3eb997;
+
+  --button-primary-color: #0170a0;
+  --button-secundary-color: #15b6fc;
+
+  --text-primary-color: #222222;
+  --text-secundary-color: #ffffff;
+}
+
 body,
 img,
 h1,
@@ -13,4 +25,8 @@ button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1 {
+  color: var(--text-primary-color);
 }
