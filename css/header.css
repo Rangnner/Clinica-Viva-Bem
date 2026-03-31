@@ -1,5 +1,5 @@
 header {
-  background-color: var(--background-primary-color);
+  background-color: var(--background-secundary-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -7,7 +7,24 @@ header {
   padding: 37px 48px;
 }
 
-.logo {
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slogam {
+  margin-top: 10px;
+}
+
+.imagem-banner {
+  width: 50%;
+  margin-top: 20px;
+}
+
+/* .logo {
   display: inline-block;
 }
 
@@ -17,4 +34,4 @@ header {
 
 nav {
   display: none;
-}
+} */
