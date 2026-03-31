@@ -1,0 +1,54 @@
+/* CSS RESET */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-VariableFont_wdth_wght.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background-primary-color: #ffffff;
+  --background-secundary-color: #f5f5f5;
+  --background-tertiary-color: #3eb997;
+
+  --button-primary-color: #0170a0;
+  --button-secundary-color: #15b6fc;
+
+  --text-primary-color: #222222;
+  --text-secundary-color: #ffffff;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+}
+
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-primary-color);
+  font-family: "Open Sans";
+}
+
+/* h1 {
+  font-weight: var(--title-weight);
+}
+
+p {
+  color: var(--button-primary-color);
+  font-family: "Open Sans";
+  font-weight: var(--text-weight);
+} */

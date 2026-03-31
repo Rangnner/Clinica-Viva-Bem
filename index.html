@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,28 +8,44 @@
   </head>
   <body>
     <header>
-      <a href="index.html" title="voltar para a página inicial">
+      <!-- <div class="banner">
+        <h1>Clínica Viva Bem</h1>
+        <p class="slogam">Excelência em diagnóstico e tratamento.</p>
+        <image class="imagem-banner" src="img/logo.png" title="imagem da logo clínica viva bem" mode="">
+      </div> -->
+      <a class="logo" href="index.html" title="voltar para a página inicial">
         <img
+          class="img-mobile"
           src="img/logo_smarthphone.png"
           alt="Desenho do logo da Clínica Viva Bem."
         />
-        <img src="img/menu.png" alt="Ícone do menu de navegação." />
+        <img
+          class="img-desktop"
+          src="img/logo_desktop.png"
+          alt="Desenho do logo da Clínica Viva Bem."
+        />
+      </a>
+      <div class="navegacao-menu">
+        <label for="menu">
+          <img src="img/menu.png" alt="Ícone do menu de navegação." />
+        </label>
+        <input type="checkbox" id="menu" hidden />
         <nav>
-          <ul>
+          <ul class="lista-links">
             <li>
               <a
-                href="sobre.html"
+                href="consulta.html"
                 title="acessa a página sobre a clínica"
                 target="_blank"
-                >Sobre</a
+                >Consulta</a
               >
             </li>
             <li>
               <a
-                href="servicos.html"
+                href="agendamento.html"
                 title="acessa a página sobre os serviços prestados na clínica"
                 target="_blank"
-                >Serviços</a
+                >Agendamento</a
               >
             </li>
             <li>
@@ -42,7 +58,7 @@
             </li>
           </ul>
         </nav>
-      </a>
+      </div>
     </header>
   </body>
 </html>
