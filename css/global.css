@@ -43,6 +43,27 @@ body {
   font-family: "Open Sans";
 }
 
+.secao-titulo h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.secao-titulo hr {
+  width: 180px;
+  height: 3px;
+  background-color: var(--button-primary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .secao-titulo hr {
+    font-size: 32px;
+  }
+}
+
 /* h1 {
   font-weight: var(--title-weight);
 }
