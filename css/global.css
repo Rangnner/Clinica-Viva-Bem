@@ -38,13 +38,16 @@ button {
   box-sizing: border-box;
 }
 
-h1 {
+body {
   color: var(--text-primary-color);
   font-family: "Open Sans";
+}
+
+/* h1 {
   font-weight: var(--title-weight);
 }
 
-/* p {
+p {
   color: var(--button-primary-color);
   font-family: "Open Sans";
   font-weight: var(--text-weight);
