@@ -59,7 +59,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .secao-titulo hr {
+  .secao-titulo h2 {
     font-size: 32px;
   }
 }
