@@ -39,13 +39,13 @@ button {
 }
 
 h1 {
-  color: var(--button-primary-color);
+  color: var(--text-primary-color);
   font-family: "Open Sans";
   font-weight: var(--title-weight);
 }
 
-p {
+/* p {
   color: var(--button-primary-color);
   font-family: "Open Sans";
   font-weight: var(--text-weight);
-}
+} */

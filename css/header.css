@@ -1,5 +1,5 @@
 header {
-  background-color: var(--background-secundary-color);
+  background-color: var(--background-primary-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -7,7 +7,7 @@ header {
   padding: 37px 48px;
 }
 
-.banner {
+/* .banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,9 +22,9 @@ header {
 .imagem-banner {
   width: 50%;
   margin-top: 20px;
-}
+} */
 
-/* .logo {
+.logo {
   display: inline-block;
 }
 
@@ -32,6 +32,10 @@ header {
   margin-top: 20px;
 }
 
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
 nav {
   display: none;
-} */
+}
