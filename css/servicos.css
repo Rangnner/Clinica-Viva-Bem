@@ -1,11 +1,17 @@
+.cards-servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .card {
   color: var(--text-secundary-color);
-  background-color: blue;
   width: 312px;
   height: 288px;
   box-sizing: border-box;
   padding: 24px 16px;
-  border-radius: 12px;
+  border-radius: 8px;
   text-align: center;
 }
 
@@ -13,36 +19,76 @@
   display: block;
   background-color: transparent;
   position: static;
+  border-radius: 8px;
   padding: 0;
-  margin-bottom: 24px;
+  margin-bottom: 26px;
 }
 
 .card header p {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: var(--text-weight);
 }
 
 .card header h3 {
-  font-size: 40px;
-  font-weight: var(--title-weight);
+  font-size: 36px;
+  font-weight: var(--menu-text-weight);
   margin: 8px 0 0;
 }
 
 .card header span {
   font-size: 32px;
-  margin-top: 24px;
+  margin-top: 10px;
   display: inline-block;
+}
+
+.card.ressonancia {
+  background: url(../img/ressonancia.png) no-repeat;
+  background-size: cover;
+}
+.card.ultrassom {
+  background: url(../img/ultra.png) no-repeat;
+  background-size: cover;
+}
+.card.tomografia {
+  background: url(../img/ressonancia.png) no-repeat;
+  background-size: cover;
+}
+
+.card.coleta {
+  background: url(../img/exames.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .cards-servicos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .card {
-    width: 588px;
-    height: 408px;
+    width: 420px;
+    height: 308px;
   }
   .card header h3 {
     font-size: 48px;
   }
   .card header span {
     font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 588px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .cards-servicos {
+    width: 1250px;
+    margin: 0 auto;
   }
 }
