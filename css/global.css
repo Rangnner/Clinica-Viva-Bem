@@ -13,6 +13,7 @@
 
   --button-primary-color: #0170a0;
   --button-secundary-color: #15b6fc;
+  --button-tertiary-color: #005b82;
 
   --text-primary-color: #222222;
   --text-secundary-color: #ffffff;
@@ -41,6 +42,46 @@ button {
 body {
   color: var(--text-primary-color);
   font-family: "Open Sans";
+}
+
+.secao-titulo h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.secao-titulo hr {
+  width: 180px;
+  height: 3px;
+  background-color: var(--button-secundary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.button {
+  display: inline-block;
+  width: 280px;
+  height: 64px;
+  color: var(--text-secundary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  line-height: 64px;
+  text-decoration: none;
+  background-color: var(--button-secundary-color);
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .secao-titulo h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--button-primary-color);
+  }
 }
 
 /* h1 {
