@@ -1,0 +1,48 @@
+.card-especialidade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 64px;
+}
+
+.card-especialidade .card {
+  width: 260px;
+  height: 220px;
+  background-color: var(--background-secundary-color);
+  text-align: center;
+  border-radius: 16px;
+  padding: 24px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-primary-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-especialidade {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }  
+  .especialidades .secao-titulo {
+    width: 100%;
+  }
+}
+  
+@media screen and (min-width: 1024px) {
+  .card-especialidade .card {
+    width: 380px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card-especialidade .card {
+    width: 280px;
+  }
+}

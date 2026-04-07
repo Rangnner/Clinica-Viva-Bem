@@ -1,3 +1,6 @@
+.servicos{
+  margin-bottom: 104px;
+}
 .cards-servicos {
   display: flex;
   flex-direction: column;
@@ -13,6 +16,8 @@
   padding: 24px 16px;
   border-radius: 8px;
   text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
 }
 
 .card header {
