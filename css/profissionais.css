@@ -1,0 +1,44 @@
+.profissionais {
+    margin-top: 104px;
+}
+
+.apresentacao-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.apresentacao-container article header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
+.apresentacao-container article footer {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 40px;
+}
+.apresentacao-container article header img {
+  width: 86px;
+  height: 86px;
+}
+.apresentacao-container article footer .perfil-info h3 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--title-weight);
+}
+.apresentacao-container article footer .perfil-info .especialidade h4{
+  font-size: 14px;
+}
+@media screen and (min-width: 1440px) {
+  .apresentacao-container article {
+        width: 280px;
+    }
+  .apresentacao-container {
+    flex-direction: row;
+    justify-content: center; 
+  }
+}
