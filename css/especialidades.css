@@ -29,12 +29,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  }  
+  }
   .especialidades .secao-titulo {
     width: 100%;
   }
 }
-  
+
 @media screen and (min-width: 1024px) {
   .card-especialidade .card {
     width: 380px;

@@ -1,5 +1,5 @@
 .profissionais {
-    margin-top: 104px;
+  margin-top: 104px;
 }
 
 .apresentacao-container {
@@ -13,6 +13,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 24px;
+  height: 75px;
 }
 
 .apresentacao-container article footer {
@@ -30,15 +31,22 @@
   line-height: 32px;
   font-weight: var(--title-weight);
 }
-.apresentacao-container article footer .perfil-info .especialidade h4{
+.apresentacao-container article footer .perfil-info .especialidade h4 {
   font-size: 14px;
 }
 @media screen and (min-width: 1440px) {
   .apresentacao-container article {
-        width: 280px;
-    }
+    width: 280px;
+  }
   .apresentacao-container {
     flex-direction: row;
-    justify-content: center; 
+    justify-content: center;
+  }
+  .apresentacao-container article header {
+    height: 130px;
+  }
+  .apresentacao-container article footer {
+    line-height: 25px;
+    margin: 0 20px;
   }
 }
