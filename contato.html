@@ -3,61 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="banner.jpg" />
     <link rel="icon" href="favico.png" type="xml/png" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/style_contato.css" />
     <title>Contato</title>
   </head>
   <body>
-    <header></header>
-    <section class="contato">
-      <div class="secao-titulo">
-        <h2>Contato</h2>
-        <hr />
-      </div>
-      <form action="sucesso.html" method="post">
-        <fieldset>
-          <legend>Dados Pessoais</legend>
-          <label for="name">Nome</label>
-          <input id="name" type="text" name="userName" required />
-          <br />
-          <label for="age">Idade</label>
-          <input
-            id="age"
-            type="number"
-            name="userAge"
-            min="12"
-            max="100"
-            required
-          />
-          <br />
-          <label for="birthDate">Data de Nascimento</label>
-          <input id="birthDate" type="date" name="userbirthDate" />
-          <br />
-          <label for="email">Email</label>
-          <input id="email" type="email" name="userEmail" required />
-          <br />
-          <label for="phoneNumber">Telefone</label>
-          <input
-            id="phoneNumber"
-            type="tel"
-            name="userPhoneNumber"
-            pattern="[0-9]{11}"
-            placeholder="DDD + número sem espaços ou hífen"
-            aria-describedby="phoneHelp"
-          />
-          <small id="phoneHelp"
-            >Preencha com 11 dígitos no formato: DDD + número sem espaços ou
-            hífen.</small
-          >
-          <br />
-        </fieldset>
-        <button type="submit" aria-label="Enviar dados do formulário">
-          Enviar
-        </button>
-        <button type="reset" aria-label="Limpar dados do formulário">
-          Limpar
-        </button>
-      </form>
-    </section>
+    <main>
+      <header>
+        <img src="img/logo.png" alt="logo pesquisa cultural" width="200" />
+      </header>
+      <section>
+        <form action="index.html" method="post">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="name">Nome</label>
+            <input id="name" type="text" name="userName" required />
+            <br />
+            <label for="email">Email</label>
+            <input id="email" type="email" name="userEmail" required />
+            <br />
+            <label for="state">Estado</label>
+            <select id="state" name="userState" required>
+              <option value="notInformed">Selecione...</option>
+              <option value="acre">Acre</option>
+              <option value="alagoas">Alagoas</option>
+              <option value="amapa">Amapá</option>
+              <option value="amazonas">Amazonas</option>
+              <option value="bahia">Bahia</option>
+              <option value="ceara">Ceará</option>
+              <option value="distritoFederal">Distrito Federal</option>
+              <option value="espiritoSanto">Espirito Santo</option>
+              <option value="goias">Goiás</option>
+              <option value="maranhao">Maranhão</option>
+              <option value="matoGrossodoSul">Mato Grosso do Sul</option>
+              <option value="matoGrosso">Mato Grosso</option>
+              <option value="minasGerais">Minas Gerais</option>
+              <option value="para">Pará</option>
+              <option value="paraiba">Paraíba</option>
+              <option value="parana">Paraná</option>
+              <option value="pernambuco">Pernambuco</option>
+              <option value="piaui">Piauí</option>
+              <option value="rioDeJaneiro">Rio de Janeiro</option>
+              <option value="rioGrandeDoNorte">Rio Grande do Norte</option>
+              <option value="rioGrandeDoSul">Rio Grande do Sul</option>
+              <option value="rondonia">Rondônia</option>
+              <option value="roraima">Roraima</option>
+              <option value="santaCatarina">Santa Catarina</option>
+              <option value="saoPaulo">São Paulo</option>
+              <option value="sergipe">Sergipe</option>
+              <option value="tocantins">Tocantins</option>
+            </select>
+            <label for="city">Cidade</label>
+            <input id="city" type="text" name="userCity" placeholder="Cidade" />
+            <label for="phoneNumber">Telefone</label>
+            <input
+              id="phoneNumber"
+              type="tel"
+              name="userPhoneNumber"
+              pattern="[0-9]{11}"
+              placeholder="DDD + número sem espaços ou hífen"
+              aria-describedby="phoneHelp"
+            />
+            <small id="phoneHelp"
+              >Preencha com 11 dígitos no formato: DDD + número sem espaços ou
+              hífen.</small
+            >
+            <br />
+          </fieldset>
+          <button type="submit" aria-label="Enviar dados do formulário">
+            Enviar
+          </button>
+          <button type="reset" aria-label="Limpar dados do formulário">
+            Limpar
+          </button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>

@@ -44,7 +44,8 @@
   }
   .bottom-hero .hero-img {
     height: 600px;
-    background: url(../img/bottom_hero_desktop.png) no-repeat;
+    background: url(../img/bottom_hero_desktop.png);
+    background-size: cover;
   }
   .hero h2 {
     padding: 88px 120px;

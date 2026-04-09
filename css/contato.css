@@ -1,12 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header img {
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+body {
+  background-color: var(--background-primary-color);
+  font-family: "Open Sans";
+}
+
+main {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
 form {
-  background-color: #ffffff;
+  background-color: var(--background-secundary-color);
   padding: 15px;
   border-radius: 15px;
 }
 
 fieldset {
   padding: 15px;
-  border: 1px solid #cccccc;
+  border: 1px solid var(--background-tertiary-color);
   border-radius: 5px;
   margin-bottom: 15px;
 }
@@ -38,7 +69,7 @@ textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #cccccc;
+  border: 1px solid var(--button-secundary-color);
   border-radius: 5px;
 }
 
@@ -57,29 +88,36 @@ input[type="color"] {
 }
 
 input:invalid {
-  border-color: rgb(255, 98, 0);
+  border-color: var(--button-secundary-color);
 }
 
 input:valid {
-  border-color: rgb(0, 255, 0);
+  border-color: var(--button-primary-color);
 }
 
 select:invalid,
 textarea:invalid {
-  border-color: red;
+  border-color: var(--button-primary-color);
 }
 
 select:valid,
 textarea:valid {
-  border-color: green;
+  border-color: var(--button-primary-color);
+}
+
+p {
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
 button {
   width: 100px;
   height: 30px;
   margin-right: 10px;
-  background-color: white;
+  background-color: var(--button-secundary-color);
+  color: var(--text-secundary-color);
   border-radius: 5px;
+  border: none;
   cursor: pointer;
 }
 
