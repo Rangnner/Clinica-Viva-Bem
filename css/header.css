@@ -47,7 +47,7 @@ input[type="checkbox"]:checked ~ nav {
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: var(--background-secundary-color);
+  background-color: var(--background-primary-color);
 }
 
 nav {
