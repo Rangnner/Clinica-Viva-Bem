@@ -12,6 +12,7 @@ header img {
 body {
   background-color: var(--background-primary-color);
   font-family: "Open Sans";
+  margin-bottom: 64px;
 }
 
 main {
