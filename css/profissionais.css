@@ -20,21 +20,25 @@
   font-size: 16px;
   line-height: 28px;
   text-align: center;
-  margin: 0 40px;
+  margin: 0 50px;
 }
 .apresentacao-container article header img {
   width: 86px;
   height: 86px;
 }
-.apresentacao-container article footer .perfil-info h3 {
+.apresentacao-container h3 {
   font-size: 20px;
-  line-height: 32px;
+  line-height: 8px;
   font-weight: var(--title-weight);
 }
-.apresentacao-container article footer .perfil-info .especialidade h4 {
-  font-size: 14px;
+.apresentacao-container h4 {
+  font-size: 15px;
+  font-weight: var(--menu-text-weight);
 }
 @media screen and (min-width: 1440px) {
+  .apresentacao-container h3 {
+  line-height: 24px;
+}
   .apresentacao-container article {
     width: 280px;
   }

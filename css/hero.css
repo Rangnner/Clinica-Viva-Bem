@@ -58,3 +58,12 @@
     padding: 88px 160px;
   }
 }
+
+@media screen and (min-width: 2560px) {
+  .hero-img {
+    height: 1200px;
+  }
+  .bottom-hero .hero-img {
+    height: 1200px;
+  }
+}
